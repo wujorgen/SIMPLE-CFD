@@ -1,6 +1,8 @@
 # SIMPLE-CFD
 This C++ code implements the Semi-Implicit Method for Pressure Linked Equations.
 
+![title](images/lidcavity.png)  ![title](images/pipeflow.png)
+
 # Input Formatting
 
 The following table specifies all the input fields and the expected data type. The input file consists of the field name and value on each line, seperated by a space.
