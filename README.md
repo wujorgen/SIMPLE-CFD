@@ -43,6 +43,9 @@ This code depends on Eigen3 for linear algebra and multidimensional array suppor
 $ ./SIMPLE < INPUT_FILE.txt
 ```
 
+## Plot
+Plotting is done with ```plot.py```. 
+
 # TODO LIST
 - Add RANS option
 - Add compressible flow option
