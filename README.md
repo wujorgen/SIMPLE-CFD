@@ -3,7 +3,7 @@ This C++ code implements the Semi-Implicit Method for Pressure Linked Equations.
 
 # Input Formatting
 
-The following table specifies all the input fields and the expected data type:
+The following table specifies all the input fields and the expected data type. The input file consists of the field name and value on each line, seperated by a space.
 
 | VAR | TYPE |
 | --- | --- |
@@ -38,3 +38,11 @@ The following table specifies all the input fields and the expected data type:
 ## Requirements
 This code depends on Eigen3 for linear algebra and multidimensional array support.
 
+## Run
+```
+$ ./SIMPLE < INPUT_FILE.txt
+```
+
+# TODO LIST
+- Add RANS option
+- Add compressible flow option
